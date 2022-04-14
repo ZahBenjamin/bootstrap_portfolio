@@ -2,16 +2,17 @@
   top: 5em;
   position: absolute;
   font-weight: bolder;
-  color: #BB1F91; 
+  color: #FDDDB6; 
   left: 1em;
   width: 20em;
 }
 
 section {
   text-align: center;
-  color: #25B57C;
+  /* color: #25B57C; */
+  color: #CE2F07;
   margin: auto;
-  background-color: #581FB5;
+  /* background-color: #581FB5; */
 }
 
 .section-bg {
@@ -37,17 +38,21 @@ section {
 }
 
 .project-card {
-  background-color: #2278B5;
+  background-color: #A5D6FF;
   /* color: black; */
   margin-top: 110px;
   width: 39%;
-  color: #25B57C;
+  color: #CE2F07;
 }
 
 .project-card {
-  opacity: 1;
+  opacity: .8;
 }
 
+.project-card:hover{
+  opacity: 1;
+  transition-timing-function: ease;
+}
 .project-card-featured {
   background-color: #000;
   /* color: black; */
@@ -56,8 +61,10 @@ section {
 
 img {
   width: 100%;
+  
 }
 
 .navEl {
   color: #25B57C;
 }
+
