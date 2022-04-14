@@ -9,5 +9,5 @@ This is a sample portfolio for Ben Zah that will be used as a place to practice 
 
 
 ## Demo
-[Live Site](https://github.com/ZahBenjamin/bootstrap_portfolio)
+[Live Site](https://zahbenjamin.github.io/bootstrap_portfolio/)
 
