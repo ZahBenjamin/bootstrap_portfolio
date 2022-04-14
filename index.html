@@ -32,24 +32,65 @@
       </div>
     </div>
   </nav>
-<!-- TODO: Style height, don't style row div bc that messes up container below-->
+<!-- About me section -->
   <div class="row">
     <img class="img-fluid" src="https://ahegao.b-cdn.net/wp-content/uploads/2020/09/kurenai-no-buta.gif" style="height: 400px;">
-    <div class="col-md-4" id="porcoRosso">text here</div>
+    <div class="col-md-4" id="porcoRosso">Full stack dev that likes cats, coffee and problem solving. See contact information below to reach out.</div>
   </div>
 
-  <!-- Portfolio section -->
-  <div class="container">
-    <div class="row">
-      <div class="col text-center">big project</div>
-    </div>
-    <div class="row row-cols-2">
-      <div class="col">project1</div>
-      <div class="col">project2</div>
-      <div class="col">project3</div>
-      <div class="col">project4</div>
-    </div>
-  </div>
+  <!-- ======= Portfolio Section ======= -->
+  <section>
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>The main technologies used in my projects are NodeJs, MySQL, as well as different uses of Ruby/Ruby on Rails. My latest project I implemented discord.js to add bot features to discord.</p>
+      </div>
+
+      <section>
+        <!-- Project list  -->
+        <h2 id="projects">Projects</h2>
+        <div id="project-container">
+          
+          <div class="project-card" id="project-1">
+            <h3>Tag Along</h3>
+            <a href="https://github.com/kevinlam11/tag_along" target="blank"
+              ><img class="featured-project-image" src="./assets/images/tagAlong.gif"/></a>
+              <div class="overlay">
+                <div class="text">Hello World</div>
+              </div>
+        </div>
+        <div class="project-card" id="project-2">
+          <h3>Readme Generator</h3>
+          <a href="https://github.com/ZahBenjamin/readme_generator" target="blank">
+            <img src="./assets/images/readmeGenerator.gif" /></a>
+        </div>
+        <div class="project-card" id="project-3">
+            <h3>Git Get Gifs</h3>
+            <a href="https://github.com/choyle-01/Movie-database-project" target="blank">
+            <img src="./assets/images/gitGet.gif" /></a>
+          </div>
+        </div>
+      </section>
+
+      
+  <!-- Footer section-->
+  <section>
+    <ul class="nav justify-content-center">
+      <li class="nav-item navEl">
+        <a target="blank" class="nav-link active" aria-current="page" href="https://github.com/ZahBenjamin/">Github</a>
+      </li>
+      <li class="nav-item navEl">
+        <a target="blank" class="nav-link" href="https://www.linkedin.com/in/benjamin-zah-786760141/">LinkedIn</a>
+      </li>
+      <li class="nav-item navEl">
+        <a target="blank" class="nav-link" href="mailto:bz@benzah.com">Email</a>
+      </li>
+      <li class="nav-item navEl">
+        <a target="blank" class="nav-link" href="https://docs.google.com/document/d/1851G9WElILGPKvH0JH8LXGtc0JK39Eo5/edit?usp=sharing&ouid=103658062142376418650&rtpof=true&sd=true">Resume</a>
+      </li>
+    </ul>
+  </section>
 
   <script  type="javascript"  href="assets/script.js"></script>
 </body>
