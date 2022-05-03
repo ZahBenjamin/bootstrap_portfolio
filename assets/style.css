@@ -1,3 +1,6 @@
+* {
+  font-family: sans-serif;
+}
 #porcoRosso {
   top: 5em;
   position: absolute;
@@ -76,10 +79,16 @@ img {
   #project-1 {
     width: 80%;
     height: 200px;
+    margin-bottom: 40px;
   }
   .project-card {
     margin-top: 40px;
     width: 80%;
     height: 200px;
+  }
+  #porcoRosso {
+    top: 24em;
+    left: 1em;
+    width: 20em;
   }
 }
